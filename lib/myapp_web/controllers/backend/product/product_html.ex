@@ -1,7 +1,7 @@
-defmodule MyappWeb.Backend.Product.ProductHTML do
+defmodule MyappWeb.ProductHTML do
   use MyappWeb, :html
 
-  embed_templates "frontend/product/*"
+  embed_templates "../../frontend/product_html/*"
 
   @doc """
   Renders a product form.
@@ -10,4 +10,6 @@ defmodule MyappWeb.Backend.Product.ProductHTML do
   attr :action, :string, required: true
 
   def product_form(assigns)
+
+
 end

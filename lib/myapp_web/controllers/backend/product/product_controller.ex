@@ -1,4 +1,4 @@
-defmodule MyappWeb.Backend.Product.ProductController do
+defmodule MyappWeb.ProductController do
   use MyappWeb, :controller
 
   alias Myapp.Catalog
